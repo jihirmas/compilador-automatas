@@ -1,0 +1,215 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    ID
+
+Grammar
+
+Rule 0     S' -> mundial
+Rule 1     mundial -> MUNDIAL opcion
+Rule 2     opcion -> LISTAR_PARTIDOS STRING
+Rule 3     opcion -> LISTAR_GOLES STRING
+Rule 4     opcion -> ESTADISTICAS_MUNDIAL STRING
+Rule 5     opcion -> JUGADORES_PAIS STRING
+Rule 6     opcion -> CANTIDAD_VICTORIAS STRING
+Rule 7     opcion -> TOTAL_GOLES STRING
+Rule 8     opcion -> CAMPEON_MUNDIAL STRING
+Rule 9     opcion -> PROMEDIO_GOLES STRING
+Rule 10    opcion -> GOLES_CONTRA STRING
+
+Terminals, with rules where they appear
+
+CAMPEON_MUNDIAL      : 8
+CANTIDAD_VICTORIAS   : 6
+ESTADISTICAS_MUNDIAL : 4
+GOLES_CONTRA         : 10
+ID                   : 
+JUGADORES_PAIS       : 5
+LISTAR_GOLES         : 3
+LISTAR_PARTIDOS      : 2
+MUNDIAL              : 1
+PROMEDIO_GOLES       : 9
+STRING               : 2 3 4 5 6 7 8 9 10
+TOTAL_GOLES          : 7
+error                : 
+
+Nonterminals, with rules where they appear
+
+mundial              : 0
+opcion               : 1
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . mundial
+    (1) mundial -> . MUNDIAL opcion
+
+    MUNDIAL         shift and go to state 2
+
+    mundial                        shift and go to state 1
+
+state 1
+
+    (0) S' -> mundial .
+
+
+
+state 2
+
+    (1) mundial -> MUNDIAL . opcion
+    (2) opcion -> . LISTAR_PARTIDOS STRING
+    (3) opcion -> . LISTAR_GOLES STRING
+    (4) opcion -> . ESTADISTICAS_MUNDIAL STRING
+    (5) opcion -> . JUGADORES_PAIS STRING
+    (6) opcion -> . CANTIDAD_VICTORIAS STRING
+    (7) opcion -> . TOTAL_GOLES STRING
+    (8) opcion -> . CAMPEON_MUNDIAL STRING
+    (9) opcion -> . PROMEDIO_GOLES STRING
+    (10) opcion -> . GOLES_CONTRA STRING
+
+    LISTAR_PARTIDOS shift and go to state 4
+    LISTAR_GOLES    shift and go to state 5
+    ESTADISTICAS_MUNDIAL shift and go to state 6
+    JUGADORES_PAIS  shift and go to state 7
+    CANTIDAD_VICTORIAS shift and go to state 8
+    TOTAL_GOLES     shift and go to state 9
+    CAMPEON_MUNDIAL shift and go to state 10
+    PROMEDIO_GOLES  shift and go to state 11
+    GOLES_CONTRA    shift and go to state 12
+
+    opcion                         shift and go to state 3
+
+state 3
+
+    (1) mundial -> MUNDIAL opcion .
+
+    $end            reduce using rule 1 (mundial -> MUNDIAL opcion .)
+
+
+state 4
+
+    (2) opcion -> LISTAR_PARTIDOS . STRING
+
+    STRING          shift and go to state 13
+
+
+state 5
+
+    (3) opcion -> LISTAR_GOLES . STRING
+
+    STRING          shift and go to state 14
+
+
+state 6
+
+    (4) opcion -> ESTADISTICAS_MUNDIAL . STRING
+
+    STRING          shift and go to state 15
+
+
+state 7
+
+    (5) opcion -> JUGADORES_PAIS . STRING
+
+    STRING          shift and go to state 16
+
+
+state 8
+
+    (6) opcion -> CANTIDAD_VICTORIAS . STRING
+
+    STRING          shift and go to state 17
+
+
+state 9
+
+    (7) opcion -> TOTAL_GOLES . STRING
+
+    STRING          shift and go to state 18
+
+
+state 10
+
+    (8) opcion -> CAMPEON_MUNDIAL . STRING
+
+    STRING          shift and go to state 19
+
+
+state 11
+
+    (9) opcion -> PROMEDIO_GOLES . STRING
+
+    STRING          shift and go to state 20
+
+
+state 12
+
+    (10) opcion -> GOLES_CONTRA . STRING
+
+    STRING          shift and go to state 21
+
+
+state 13
+
+    (2) opcion -> LISTAR_PARTIDOS STRING .
+
+    $end            reduce using rule 2 (opcion -> LISTAR_PARTIDOS STRING .)
+
+
+state 14
+
+    (3) opcion -> LISTAR_GOLES STRING .
+
+    $end            reduce using rule 3 (opcion -> LISTAR_GOLES STRING .)
+
+
+state 15
+
+    (4) opcion -> ESTADISTICAS_MUNDIAL STRING .
+
+    $end            reduce using rule 4 (opcion -> ESTADISTICAS_MUNDIAL STRING .)
+
+
+state 16
+
+    (5) opcion -> JUGADORES_PAIS STRING .
+
+    $end            reduce using rule 5 (opcion -> JUGADORES_PAIS STRING .)
+
+
+state 17
+
+    (6) opcion -> CANTIDAD_VICTORIAS STRING .
+
+    $end            reduce using rule 6 (opcion -> CANTIDAD_VICTORIAS STRING .)
+
+
+state 18
+
+    (7) opcion -> TOTAL_GOLES STRING .
+
+    $end            reduce using rule 7 (opcion -> TOTAL_GOLES STRING .)
+
+
+state 19
+
+    (8) opcion -> CAMPEON_MUNDIAL STRING .
+
+    $end            reduce using rule 8 (opcion -> CAMPEON_MUNDIAL STRING .)
+
+
+state 20
+
+    (9) opcion -> PROMEDIO_GOLES STRING .
+
+    $end            reduce using rule 9 (opcion -> PROMEDIO_GOLES STRING .)
+
+
+state 21
+
+    (10) opcion -> GOLES_CONTRA STRING .
+
+    $end            reduce using rule 10 (opcion -> GOLES_CONTRA STRING .)
+
