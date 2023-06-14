@@ -1,65 +1,60 @@
 import ply.lex as lex
 import ply.yacc as yacc
 
-reserved = {
-    'mundial': 'MUNDIAL',
-    '-j': 'LISTAR_PARTIDOS',
-    '-h': 'LISTAR_GOLES',
-    '-f': 'ESTADISTICAS_MUNDIAL',
-    '-p': 'JUGADORES_PAIS',
-    '-t': 'CANTIDAD_VICTORIAS',
-    '-g': 'TOTAL_GOLES',
-    '-c': 'CAMPEON_MUNDIAL',
-    '-m': 'PROMEDIO_GOLES',
-    '-e': 'GOLES_CONTRA'
-}
+# Lista de tokens reconocidos por el lexer
+tokens = (
+    'COMMAND',
+    'OPTION',
+    'STRING',
+    'SPACE'
+)
 
-tokens = [
-    'ID',
-    'STRING'
-] + list(reserved.values())
-
+# Reglas de expresiones regulares para cada token
+t_COMMAND = r'mundial'
+t_OPTION = r'-[a-z]'
 t_STRING = r'\".*?\"'
+t_SPACE = r'\s'
 
-def t_ID(t):
-    r'[a-zA-Z_][a-zA-Z_0-9]*'
-    t.type = reserved.get(t.value, 'ID')
-    return t
+# Ignorar espacios en blanco y tabulaciones
+t_ignore = ''
 
-t_ignore = ' \t'
-
+# Manejo de errores de tokens no reconocidos
 def t_error(t):
-    print("Carácter inválido: %s" % t.value[0])
+    print("Error de sintaxis")
     t.lexer.skip(1)
+    exit(0)
 
+# Construcción del lexer
 lexer = lex.lex()
 
-variables = {}
+# Definición de la gramática y las reglas de precedencia
+precedence = ()
 
-def p_mundial(t):
-    '''mundial : MUNDIAL opcion'''
-    print(t[2])
+# Regla para el comando completo
+def p_command(p):
+    'command : COMMAND SPACE OPTION SPACE STRING'
+    command = p[1]
+    option = p[3]
+    string = p[5][1:-1]  # Remover las comillas del string
+    print(f"Comando: {command}\nOption: {option}\nString: {string}")
 
-def p_opcion(t):
-    '''opcion : LISTAR_PARTIDOS STRING
-              | LISTAR_GOLES STRING
-              | ESTADISTICAS_MUNDIAL STRING
-              | JUGADORES_PAIS STRING
-              | CANTIDAD_VICTORIAS STRING
-              | TOTAL_GOLES STRING
-              | CAMPEON_MUNDIAL STRING
-              | PROMEDIO_GOLES STRING
-              | GOLES_CONTRA STRING'''
-    t[0] = t[1] + ' ' + t[2]
+    if len(p) > 6:
+        print("Error: Caracteres no permitidos después del string")
+        return
+def p_command_error(p):
+    'command : COMMAND SPACE OPTION SPACE STRING SPACE'
+    print("Error: Caracteres no permitidos después del argumento")
+    exit (0)
+# Manejo de errores de sintaxis
+def p_error(p):
+    print("Error de sintaxis")
+    exit (0)
 
-def p_error(t):
-    print("Error de sintaxis en la entrada: %s" % t.value)
-
+# Construcción del parser
 parser = yacc.yacc()
 
-while True:
-    try:
-        data = input()
-    except EOFError:
-        break
-    parser.parse(data)
+# Prueba del intérprete
+
+input_string = 'mundial -a "ejemplo"'
+lexer.input(input_string)
+parser.parse(input_string)
