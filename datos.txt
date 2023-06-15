@@ -1,0 +1,263 @@
+Fecha,Equipo Local,Goles Local,Equipo Visitante,Goles Visitante,Goles,Etapa
+09/06/2006,Alemania,4,Costa Rica,2,Klose, Lahm, Frings, Wanchope, Draper,FG
+09/06/2006,Polonia,0,Ecuador,2,Carlos Tenorio, Agustín Delgado,FG
+10/06/2006,Inglaterra,1,Paraguay,0,Beckham,FG
+10/06/2006,Trinidad y Tobago,0,Suecia,0,FG
+10/06/2006,Argentina,2,Costa de Marfil,1,Maxi Rodríguez, Hernán Crespo, Drogba,FG
+11/06/2006,Países Bajos,1,Serbia y Montenegro,0,Ruud van Nistelrooy,FG
+11/06/2006,México,3,Irán,1,Omar Bravo(2), Zinha, Yahya Golmohammadi,FG
+11/06/2006,Angola,0,Portugal,1,Petit,FG
+12/06/2006,Australia,2,Japón,1,Tim Cahill(2), Nakamura,FG
+12/06/2006,Italia,2,Ghana,0,Andrea Pirlo, Vincenzo Iaquinta,FG
+12/06/2006,Brasil,1,Croacia,0,Kaká,FG
+13/06/2006,Corea del Sur,2,Togo,1,Lee Chun-Soo, Ahn Jung-Hwan, Mohamed Kader,FG
+13/06/2006,Francia,0,Suiza,0,FG
+13/06/2006,Ucrania,4,Arabia Saudita,0,Shevchenko(2), Kalinichenko, Husin,FG
+14/06/2006,España,4,Ucrania,0,David Villa, Fernando Torres, Xabi Alonso, Luis García,FG
+14/06/2006,Túnez,2,Arabia Saudita,2,Al-Jaber, Al-Kahtani, Jaziri, Santos,FG
+14/06/2006,Serbia y Montenegro,0,Argentina,6,Maxi Rodríguez, Cambiasso(2), Crespo, Ayala, Tevez,FG
+15/06/2006,Croacia,2,Brasil,0,Klasnić, Srna,FG
+15/06/2006,Holanda,2,Costa de Marfil,1,Van Persie, Robben, Bakari Koné,FG
+15/06/2006,México,0,Angola,0,FG
+16/06/2006,Irán,0,Portugal,2,Deco, Cristiano Ronaldo,FG
+16/06/2006,Ghana,2,República Checa,0,Asamoah, Muntari,FG
+16/06/2006,Italia,1,Estados Unidos,1,Gilardino, Dempsey,FG
+17/06/2006,Inglaterra,2,Trinidad y Tobago,0,Crouch, Gerrard,FG
+17/06/2006,Suecia,1,Paraguay,0,Fredrik Ljungberg,FG
+17/06/2006,Argentina,6,Serbia y Montenegro,0,Maxi Rodríguez, Esteban Cambiasso(2), Hernán Crespo, Carlos Tévez(2),FG
+18/06/2006,Países Bajos,1,Costa de Marfil,2,Van Persie, B. Koné, Kalou,FG
+18/06/2006,México,1,Portugal,2,Francisco Fonseca, Maniche, Simão,FG
+18/06/2006,Angola,0,Irán,0,FG
+19/06/2006,República Checa,0,Ghana,2,Ayiäna, Appiah,FG
+19/06/2006,Italia,1,Australia,0,Totti,FG
+19/06/2006,Brasil,2,Japón,1,Ronaldo, Juninho, Tamada,FG
+20/06/2006,Croacia,2,Australia,2,Joey Barton, Darijo Srna(autogol), Mark Viduka, Craig Moore,FG
+20/06/2006,Brasil,4,Ghana,0,Zé Roberto, Adriano, Ronaldo(2),FG
+21/06/2006,Suecia,2,Inglaterra,2,Marcus Allbäck, Henrik Larsson, Joe Cole, Steven Gerrard,FG
+21/06/2006,España,1,Túnez,0,Raúl,FG
+22/06/2006,Ucrania,1,Túnez,0,Andriy Shevchenko,FG
+22/06/2006,Arabia Saudita,0,España,1,Fernando Torres,FG
+22/06/2006,Portugal,2,México,1,Maniche, Simão, Fonseca,FG
+23/06/2006,Serbia y Montenegro,3,Costa de Marfil,2,Ivica Dragutinović, Albert Nadj, Milan Biševac, Didier Drogba, Bakari Koné,FG
+23/06/2006,Países Bajos,0,Argentina,0,FG
+23/06/2006,México,0,Portugal,0,FG
+23/06/2006,Irán,1,Angola,1,Mehdi Mahdavikia, Flávio,FG
+24/06/2006,Croacia,2,Australia,2,Josip Šimunić, Darijo Srna(autogol), Mark Viduka, Craig Moore,FG
+24/06/2006,Italia,1,Ghana,0,Fabio Grosso,FG
+24/06/2006,Brasil,4,Japón,1,Ronaldo(2), Juninho, Tamada,FG
+25/06/2006,Suecia,2,Inglaterra,2,Marcus Allbäck, Henrik Larsson, Joe Cole, Steven Gerrard,FG
+25/06/2006,España,1,Túnez,0,Raúl,FG
+26/06/2006,Ucrania,1,Túnez,0,Andriy Shevchenko,FG
+26/06/2006,Arabia Saudita,0,España,1,Fernando Torres,FG
+26/06/2006,Portugal,2,México,1,Maniche, Simão, Fonseca,FG
+27/06/2006,Serbia y Montenegro,3,Costa de Marfil,2,Ivica Dragutinović, Albert Nadj, Milan Biševac, Didier Drogba, Bakari Koné,FG
+27/06/2006,Países Bajos,0,Argentina,0,FG
+27/06/2006,México,0,Portugal,0,FG
+27/06/2006,Irán,1,Angola,1,Mehdi Mahdavikia, Flávio,FG
+28/06/2006,Croacia,2,Australia,2,Josip Šimunić, Darijo Srna(autogol), Mark Viduka, Craig Moore,FG
+28/06/2006,Italia,1,Ghana,0,Fabio Grosso,FG
+28/06/2006,Brasil,4,Japón,1,Ronaldo(2), Juninho, Tamada,FG
+29/06/2006,Suiza,0,Ucrania,0,FG
+29/06/2006,Togo,0,Francia,2,Vieira, Henry,FG
+30/06/2006,Ecuador,0,Inglaterra,1,David Beckham,FG
+30/06/2006,Suecia,2,Alemania,0,Lukas Podolski(autogol), Marcus Allbäck,FG
+01/07/2006,Argentina,2,México,1,Marquez(autogol), Crespo, Omar Bravo,FG
+01/07/2006,Alemania,2,Suecia,0,Lukas Podolski, Miroslav Klose,FG
+01/07/2006,Inglaterra,1,Portugal,0,Beckham,FG
+01/07/2006,Italia,1,Australia,0,Francesco Totti,FG
+02/07/2006,Ucrania,0,Suiza,0,FG
+02/07/2006,España,1,Francia,3,Villa, Ribéry, Vieira, Zidane,FG
+04/07/2006,Alemania,0,Italia,2,Fabio Grosso, Alessandro Del Piero,SF
+05/07/2006,Portugal,0,Francia,1,Portugal, Zidane,TC
+08/07/2006,Alemania,3,Portugal,1,Grosso, Del Piero, Petit, Zidane,F
+11/06/2010,Sudáfrica,1,México,1,Tshabalala,Franco,FG
+11/06/2010,Uruguay,0,Francia,0,FG
+12/06/2010,Corea del Sur,2,Grecia,0,Jung, Lee,FG
+12/06/2010,Argentina,1,Nigeria,0,Heinze,FG
+12/06/2010,Inglaterra,1,Estados Unidos,1,Gerrard,Dempsey,FG
+13/06/2010,Argelia,0,Eslovenia,1,Koren,FG
+13/06/2010,Serbia,0,Ghana,1,Gyan,FG
+13/06/2010,Alemania,4,Australia,0,Podolski, Klose, Müller(2),FG
+14/06/2010,Paises Bajos,2,Dinamarca,0,Agger(autogol), Kuyt,FG
+14/06/2010,Japón,1,Camerún,0,Honda,FG
+14/06/2010,Italia,1,Paraguay,1,De Rossi,Vera,FG
+15/06/2010,Nueva Zelanda,1,Eslovaquia,1,Reid,Vittek,FG
+15/06/2010,Portugal,0,Costa de Marfil,0,FG
+15/06/2010,Brasil,2,Corea del Norte,1,Maicon, Elano,Jong Tae-se,FG
+16/06/2010,Honduras,0,Chile,1,Beausejour,FG
+16/06/2010,España,0,Suiza,1,Fernandes,FG
+16/06/2010,Sudáfrica,0,Uruguay,3,Forlán(2), Pereira,FG
+17/06/2010,Argentina,4,Corea del Sur,1,Park Chu-young,González, Higuaín(2), Tévez,FG
+17/06/2010,Grecia,2,Nigeria,1,Salpingidis, Torosidis,Uche,FG
+17/06/2010,Francia,0,México,2,Hernández,Blanco,FG
+18/06/2010,Alemania,0,Serbia,1,Jovanović,FG
+18/06/2010,Eslovenia,2,Estados Unidos,2,Birsa,Ljubijankič,Bradley,Donovan,FG
+18/06/2010,Inglaterra,0,Argelia,0,FG
+19/06/2010,Ghana,1,Australia,1,Gyan,Holman,FG
+19/06/2010,Paises Bajos,1,Japón,0,Sneijder,FG
+19/06/2010,Camerún,1,Dinamarca,2,Eto'o,Bendtner, Rommedahl,FG
+20/06/2010,Eslovaquia,0,Paraguay,2,Enrique Vera,Valdez,FG
+20/06/2010,Italia,1,Nueva Zelanda,1,Iaquinta,Smeltz,FG
+20/06/2010,Brasil,3,Costa de Marfil,1,Luis Fabiano, Elano, Drogba, Maicon,FG
+21/06/2010,Honduras,0,España,2,Villa(2),FG
+21/06/2010,Chile,1,Suiza,0,González,FG
+22/06/2010,Corea del Norte,0,Costa de Marfil,3,Yaya Touré, Romaric, Kalou,FG
+22/06/2010,Portugal,7,Corea del Norte,0,Raul Meireles, Simão, Hugo Almeida, Tiago, Liedson, Cristiano Ronaldo(2),FG
+22/06/2010,Eslovenia,0,Inglaterra,1,Defoe,FG
+23/06/2010,Estados Unidos,1,Argelia,0,Donovan,FG
+23/06/2010,Ghana,0,Alemania,1,Özil,FG
+23/06/2010,Australia,2,Serbia,1,Cahill, Holman,Jovanović,FG
+23/06/2010,Grecia,0,Argentina,2,Demichelis,Palermo,FG
+24/06/2010,Eslovaquia,3,Italia,2,Vittek, Kopúnek, Quagliarella, Di Natale,FG
+24/06/2010,Paraguay,0,Nueva Zelanda,0,FG
+24/06/2010,Dinamarca,1,Japón,3,Okazaki, Endo, Honda, Tomasson,FG
+24/06/2010,Camerún,1,Holanda,2,Eto'o,van Persie, Huntelaar,FG
+25/06/2010,Portugal,1,Brasil,0,Ronaldo,FG
+25/06/2010,Corea del Norte,0,Costa de Marfil,3,Yaya Touré, Romaric, Kalou,FG
+25/06/2010,Chile,1,Suiza,0,González,FG
+26/06/2010,Eslovenia,0,Inglaterra,1,Defoe,FG
+26/06/2010,Estados Unidos,1,Argelia,0,Donovan,FG
+26/06/2010,Ghana,0,Alemania,1,Özil,FG
+27/06/2010,Australia,2,Serbia,1,Cahill, Holman, Jovanović,FG
+27/06/2010,Grecia,0,Argentina,2,Demichelis, Palermo,FG
+28/06/2010,Eslovaquia,3,Italia,2,Vittek, Kopúnek, Quagliarella, Di Natale,FG
+28/06/2010,Paraguay,0,Nueva Zelanda,0,FG
+28/06/2010,Dinamarca,1,Japón,3,Okazaki, Endo, Honda, Tomasson,FG
+28/06/2010,Camerún,1,Holanda,2,Eto'o, van Persie, Huntelaar,FG
+29/06/2010,Paraguay,0,Japan,0,FG
+29/06/2010,Eslovaquia,3,Netherlands,2,Vittek, Kopúnek, Robben, Sneijder,FG
+29/06/2010,Brazil,3,Chile,0,Juan, Luís Fabiano, Robinho,FG
+29/06/2010,Spain,1,Portugal,0,David Villa,FG
+02/07/2010,Uruguay,1,Korea Republic,1,Suárez, Lee Chung-yong,OF
+02/07/2010,USA,1,Ghana,2,Dempsey, Kevin-Prince Boateng, Gyan,OF
+03/07/2010,Argentina,0,Germany,4,Müller(2), Klose, Friedrich,OF
+03/07/2010,Paraguay,0,Spain,1,David Villa,OF
+06/07/2010,Uruguay,2,Ghana,3,Forlán, Muntari, Gyan, Suárez, Adiyiah,OF
+07/07/2010,Netherlands,3,Uruguay,2,Van Bronckhorst, Robben, Sneijder, Forlán, Pereira,OF
+08/07/2010,Germany,0,Spain,1,Carles Puyol,SF
+10/07/2010,Uruguay,2,Germany,3,Edinson Cavani, Diego Forlán, Thomas Müller, Marcell Jansen, Sami Khedira,TC
+11/07/2010,Netherlands,0,Spain,1,Andres Iniesta,F
+12/06/2014,Brasil,3,Croacia,1,Marcelo (autogol),Neymar (2),Oscar,FG
+13/06/2014,México,1,Camerún,0,Peralta,FG
+13/06/2014,España,1,Países Bajos,5,Xabi Alonso,Van Persie(2),Robben (2),De Vrij,FG
+13/06/2014,Chile,3,Australia,1,Alexis Sánchez (2),Valdivia,Tim Cahill,FG
+14/06/2014,Colombia,3,Grecia,0,Armero,Gutiérrez,Rodríguez,FG
+14/06/2014,Costa de Marfil,2,Japón,1,Bony,Gervinho,Honda,FG
+14/06/2014,Inglaterra,1,Italia,2,Sturridge,Balotelli,Marchisio,FG
+14/06/2014,Uruguay,1,Costa Rica,3,Cavani,Joel Campbell(2),Óscar Duarte,FG
+15/06/2014,Suiza,2,Ecuador,1,Admir Mehmedi,Seferovic,Enner Valencia,FG
+15/06/2014,Francia,3,Honduras,0,Benzema (2),Valladares (autogol),FG
+15/06/2014,Argentina,2,Bosnia y Herzegovina,1,Kolasinac (autogol),Messi,Pjanic,FG
+16/06/2014,Irán,0,Nigeria,0,FG
+16/06/2014,Alemania,4,Portugal,0,Müller(3),Hummels,FG
+16/06/2014,Ghana,1,Estados Unidos,2,Ayew,Dempsey,Brooks,FG
+17/06/2014,Bélgica,2,Argelia,1,Fellaini,Mertens,Feghouli (penal),FG
+17/06/2014,Brasil,0,México,0,FG
+17/06/2014,Rusia,1,Corea del Sur,1,Kerzhakov,Keun-Ho,FG
+18/06/2014,Australia,2,Paises Bajos,3,Tim Cahill,Mile Jedinak,Robben, van Persie, Depay,FG
+18/06/2014,España,0,Chile,2,Vargas, Aránguiz,FG
+18/06/2014,Camerún,0,Croacia,4,Olić, Perišić, Mandžukić, Rakitić,FG
+19/06/2014,Colombia,2,Costa de Marfil,1,James Rodríguez(2), Gervinho,FG
+19/06/2014,Uruguay,2,Inglaterra,1,Suárez(2), Rooney,FG
+19/06/2014,Japón,0,Grecia,0,FG
+20/06/2014,Italia,0,Costa Rica,1,Ruiz,FG
+20/06/2014,Suiza,2,Francia,5,Dzemaili, Xhaka, Benzema (2), Matuidi, Valbuena, Giroud,FG
+20/06/2014,Honduras,1,Ecuador,2,Carlo Costly,Enner Valencia,Emerson,FG
+21/06/2014,Argentina,1,Irán,0,Messi,FG
+21/06/2014,Alemania,2,Ghana,2,Götze, Klose, Ayew, Gyan,FG
+21/06/2014,Nigeria,1,Bosnia y Herzegovina,0,Odemwingie,FG
+22/06/2014,Bélgica,1,Rusia,0,Origi,FG
+22/06/2014,Corea del Sur,2,Argelia,4,Son Heung-min, Koo Ja-cheol, Slimani, Halliche, Djabou, Brahimi,FG
+22/06/2014,Estados Unidos,2,Portugal,2,Jones, Dempsey, Nani, Varela,FG
+23/06/2014,Paises Bajos,2,Chile,0,Fer, Depay,FG
+23/06/2014,Australia,0,España,3,Villa, Torres, Mata,FG
+23/06/2014,Croacia,1,México,3,Perisic, Guardado, Márquez, Chicharito,FG
+23/06/2014,Camerún,1,Brasil,4,Matip, Neymar (2), Fred, Fernandinho,FG
+24/06/2014,Italia,0,Uruguay,1,Godín,FG
+24/06/2014,Costa Rica,0,Inglaterra,0,FG
+24/06/2014,Japón,1,Colombia,4,Okazaki, Rodríguez, Jackson Martínez, Quintero, James Rodríguez,FG
+24/06/2014,Grecia,2,Costa de Marfil,1,Samaras, Samaris, Bony,FG
+25/06/2014,Nigeria,2,Argentina,3,Messi (2), Ahmed Musa(2), Rojo,FG
+25/06/2014,Bosnia y Herzegovina,3,Irán,1,Džeko, Pjanić, Avdija Vršajević, Ghoochannejhad,FG
+25/06/2014,Honduras,0,Suiza,3,Xherdan Shaqiri(3),FG
+25/06/2014,Ecuador,0,Francia,0,FG
+28/06/2014,Brasil,1,Chile,1,David Luiz, Alexis Sánchez,OF
+28/06/2014,Colombia,2,Uruguay,0,James Rodríguez(2),OF
+29/06/2014,Paises Bajos,2,México,1,Wesley Sneijder,Klaas-Jan Huntelaar,Giovani dos Santos,OF
+29/06/2014,Costa Rica,1,Grecia,1,Ruiz,Sokratis Papastathopoulos,OF
+30/06/2014,Francia,2,Nigeria,0,Pogba, Yobo(autogol),OF
+30/06/2014,Alemania,2,Argelia,1,Schürrle, Özil,Djabou,OF
+01/07/2014,Argentina,1,Suiza,0,Di María,OF
+01/07/2014,Bélgica,2,Estados Unidos,1,De Bruyne, Lukaku,Green,OF
+04/07/2014,Brasil,2,Colombia,1,Thiago Silva,David Luiz,James Rodríguez,OF
+04/07/2014,Alemania,1,Francia,0,Hummels,OF
+05/07/2014,Argentina,1,Bélgica,0,Higuaín,OF
+05/07/2014,Paises Bajos,0,Costa Rica,0,FG
+08/07/2014,Alemania,7,Brasil,1,Müller, Klose, Kroos (2), Khedira, Schürrle (2),Oscar,OF
+09/07/2014,Paises Bajos,0,Argentina,0,FG
+12/07/2014,Brasil,0,Paises Bajos,3,Van Persie, Blind, Wijnaldum,TC
+13/07/2014,Alemania,1,Argentina,0,Götze,F
+14/06/2018,Rusia,5,Arabia Saudita,0,Gazinskiy,Cheryshev(2),Dzyuba,Golovin,FG
+15/06/2018,Egipto,0,Uruguay,1,Giménez,FG
+15/06/2018,Marruecos,0,Irán,1,Bouhaddouz (autogol),FG
+15/06/2018,Portugal,3,España,3,Ronaldo(3),Costa(2),Nacho,FG
+16/06/2018,Francia,2,Australia,1,Griezmann,Behich (autogol),Jedinak (penal),FG
+16/06/2018,Argentina,1,Islandia,1,Agüero,Finnbogason,FG
+16/06/2018,Perú,0,Dinamarca,1,Poulsen,FG
+16/06/2018,Croacia,2,Nigeria,0,Etebo (autogol),Modrić (penal),FG
+17/06/2018,Costa Rica,0,Serbia,1,Kolarov,FG
+17/06/2018,Brasil,1,Suiza,1,Coutinho,Zuber,FG
+17/06/2018,Alemania,0,México,1,Lozano,FG
+18/06/2018,Suecia,1,Corea del Sur,0,Granqvist (penal),FG
+18/06/2018,Bélgica,3,Panamá,0,Mertens,Lukaku(2),FG
+18/06/2018,Túnez,1,Inglaterra,2,Sassi (penal),Kane(2),FG
+19/06/2018,Colombia,1,Japón,2,Quintero,Kagawa (penal),Osako,FG
+19/06/2018,Polonia,1,Senegal,2,Krychowiak,Cionek (autogol),Niang,FG
+19/06/2018,Rusia,3,Egipto,1,Fathy (autogol),Cheryshev(2),Salah (penal),FG
+20/06/2018,Portugal,1,Marruecos,0,Ronaldo,FG
+20/06/2018,Uruguay,1,Arabia Saudita,0,Suárez,FG
+20/06/2018,Irán,0,España,1,Costa,FG
+21/06/2018,Dinamarca,1,Australia,1,Eriksen,Jedinak (penal),FG
+21/06/2018,Francia,1,Perú,0,Mbappé,FG
+21/06/2018,Argentina,0,Croacia,3,Rebic,Modrić,Rakitić,FG
+22/06/2018,Brasil,2,Costa Rica,0,Coutinho,Neymar,FG
+22/06/2018,Nigeria,2,Islandia,0,Musa(2),FG
+22/06/2018,Serbia,1,Suiza,2,Mitrovic,Xhaka,Shaqiri,FG
+23/06/2018,Bélgica,5,Túnez,2,Hazard (2),Lukaku(2),Batshuayi,Bronn,Khazri,FG
+23/06/2018,Corea del Sur,1,México,2,Son,Vela,Chicharito,FG
+23/06/2018,Alemania,2,Suecia,1,Reus,Kroos,Toivonen,FG
+24/06/2018,Inglaterra,6,Panamá,1,Stones(2),Kane(3),Lingard,Baloy,FG
+24/06/2018,Japón,2,Senegal,2,Haraguchi,Inui,Mané,Wagué,FG
+24/06/2018,Polonia,0,Colombia,3,Mina,Falcao,Cuadrado,FG
+25/06/2018,Arabia Saudita,2,Egipto,1,Al-Faraj (penal),Al-Dawsari,Salah,FG
+25/06/2018,Uruguay,3,Rusia,0,Suárez,Cheryshev (autogol),Cavani,FG
+25/06/2018,Irán,1,Portugal,1,Ansarifard (penal),Quaresma,FG
+25/06/2018,España,2,Marruecos,2,Isco,Aspas,Boutaib,En-Nesyri,FG
+26/06/2018,Australia,0,Perú,2,Carrillo,Guerrero,FG
+26/06/2018,Dinamarca,0,Francia,0,FG
+26/06/2018,Nigeria,1,Argentina,2,Moses (penal),Messi,Rojo,FG
+26/06/2018,Islandia,1,Croacia,2,Sigurdsson (penal),Badelj,Perisic,FG
+27/06/2018,Serbia,0,Brasil,2,Paulinho,Thiago Silva,FG
+27/06/2018,Suiza,2,Costa Rica,2,Dzemaili,Drmić,Waston,Sommer (autogol),FG
+27/06/2018,Corea del Sur,2,Alemania,0,Kim Young-gwon,Son,FG
+27/06/2018,México,0,Suecia,3,Granqvist (penal),Augustinsson,Álvarez (autogol),FG
+28/06/2018,Senegal,0,Colombia,1,Mina,FG
+28/06/2018,Japón,0,Polonia,1,Bednarek,FG
+28/06/2018,Inglaterra,0,Bélgica,1,Januzaj,FG
+28/06/2018,Panamá,1,Túnez,2,Meriah,Bronn,Khazri,FG
+30/06/2018,Francia,4,Argentina,3,Griezmann,Pavard,Mbappé (2),Di María,Mercado,Agüero,FG
+30/06/2018,Uruguay,2,Portugal,1,Cavani (2),Pepe,FG
+01/07/2018,España,1,Rusia,1,Iago Aspas,Dzyuba,FG
+01/07/2018,Croacia,1,Dinamarca,1,Mandzukic,Jørgensen,FG
+02/07/2018,Brasil,2,México,0,Neymar,Roberto Firmino,FG
+02/07/2018,Bélgica,3,Japón,2,Vertonghen,Fellaini,Chadli,Haraguchi,Inui,FG
+03/07/2018,Suecia,1,Suiza,0,Forsberg,FG
+03/07/2018,Colombia,1,Inglaterra,1,Mina,Trippier,FG
+06/07/2018,Uruguay,0,Francia,2,Varane,Griezmann,FG
+06/07/2018,Brasil,1,Bélgica,2,Renato Augusto,De Bruyne,FG
+07/07/2018,Rusia,2,Croacia,2,Cheryshev,Vida,Fernandes,Kramaric,OF
+08/07/2018,Inglaterra,2,Suecia,0,Maguire,Alli,OF
+10/07/2018,Francia,1,Bélgica,0,Umtiti,OF
+11/07/2018,Croacia,2,Inglaterra,1,Perisic,Mandzukic,Tríppier,OF
+14/07/2018,Bélgica,2,Inglaterra,0,Meunier,Hazard,TC
+15/07/2018,Francia,4,Croacia,2,Mandzukic (autogol),Griezmann,Pogba,Mbappé,Perisic,Mandzukic,F

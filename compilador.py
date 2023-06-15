@@ -56,5 +56,5 @@ parser = yacc.yacc()
 # Prueba del intérprete
 
 input_string = 'mundial -a "ejemplo"'
-lexer.input(input_string)
-parser.parse(input_string)
+print(lexer.input(input_string))
+print(parser.parse(input_string))
