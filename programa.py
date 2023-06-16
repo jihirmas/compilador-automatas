@@ -214,9 +214,10 @@ for i in range(10):
     revisar_comando(comando)
 
 correcto, command, option, string  = revisar_comando(comando)
-print("\n")
+
 try:
-    if string not in ["2006", "2010", "2014", "2018"]:
+    print("\n")
+    if string not in ["2006", "2010", "2014", "2018"] and (option == "-c" or option == "-g" or option == "-j"):
         print(f"Opcion ano_mundial ingresado incorrectamente: {string}")
         print("Formato correcto: mundial -c “año_mundial” Donde mundial puede ser 2006,2010,2014 o 2018")
         print("\n")
@@ -239,6 +240,7 @@ try:
             print("Comando no reconocido")
     else:
         print("Entrada incorrecta")
+    print("\n")
 except Exception as e:
     print("Error en el formato de entrada:", str(e))
     if option == "-c" or option == "-g" or option == "-j":
@@ -247,7 +249,7 @@ except Exception as e:
         print("\n")
     elif option == "-t":
         print(f"Opcion Pais ingresado incorrectamente: {string}")
-        print("Formato correcto: mundial -t “equipo” Donde equipo puede ser cualquier equipo que haya participado en los mundiales")
+        print("Formato correcto: mundial -t “pais” Donde pais puede ser cualquier pais que haya participado en los mundiales")
         print("\n")
     else:
         print(f"Opcion jugador ingresado incorrectamente: {string}")

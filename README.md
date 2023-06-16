@@ -28,7 +28,7 @@ Aquí hay algunos ejemplos de cómo usar el lenguaje Mundial:
 
 `mundial -h "Ronaldo"` Lista los goles anotados por Cristiano Ronaldo en los mundiales.
 
-`mundial -t "Brasil"` Muestra la cantidad de veces que Brasil ha ganado la Copa del Mundo.
+`mundial -t "Alemania"` Muestra la cantidad de veces que Alemania ha ganado la Copa del Mundo.
 
 ### Restricciones y casos de error
 Es importante tener en cuenta algunas restricciones y casos de error al utilizar el lenguaje Mundial. En primer lugar, asegúrate de escribir correctamente el comando y las opciones, ya que cualquier error tipográfico puede generar un resultado inesperado o producir un error. Además, ten en cuenta que el lenguaje Mundial es sensible a mayúsculas y minúsculas, por lo que debes escribir los comandos y las consultas de forma precisa.
