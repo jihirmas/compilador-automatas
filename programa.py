@@ -85,13 +85,13 @@ def query_t(partidos,pais):
                 cantidad_de_veces +=1
     
     if cantidad_de_veces == 1:
-        print(f"{pais} ha ganado la copa del mundo {cantidad_de_veces} vez")
+        print(f"{pais} ha ganado la copa del mundo {cantidad_de_veces} vez (del 2006 - 2018) ")
     else:
-        print(f"{pais} ha ganado la copa del mundo {cantidad_de_veces} veces")
+        print(f"{pais} ha ganado la copa del mundo {cantidad_de_veces} veces (del 2006 - 2018) ")
     return   
 
 ### mundial -m "pais" (muestra el promedio de goles del pais en los mundiales en los que ha participado)* ###
-def query_m(partidos):
+def query_m(partidos, pais):
     dict_paises_goles = {}
     for partido in partidos:
         if partido.equipo_local.lower() in dict_paises_goles:
@@ -103,10 +103,9 @@ def query_m(partidos):
             dict_paises_goles[partido.equipo_visitante.lower()].append(partido.goles_visitante)
         else:
             dict_paises_goles[partido.equipo_visitante.lower()] = [partido.goles_visitante]
-    for pais in dict_paises_goles:
-        dict_paises_goles[pais] = sum(dict_paises_goles[pais])/len(dict_paises_goles[pais])
-    for pais in dict_paises_goles:
-        print(f"El promedio de goles de {pais} es {round(dict_paises_goles[pais],2)}")
+    for p in dict_paises_goles:
+        dict_paises_goles[p] = sum(dict_paises_goles[p])/len(dict_paises_goles[p])
+    print(f"El promedio de goles de {pais} en los mundiales (del 2006 - 2018)  en los que ha participado es {dict_paises_goles[pais]}")
        
 ### mundial -h “jugador” (lista los goles del jugador en mundiales)* """
 def query_h(jugador,partidos):
@@ -117,7 +116,7 @@ def query_h(jugador,partidos):
                 goles += partido.goles[jugador]
         except:
             pass
-    print(f"El jugador {jugador} ha anotado {goles} goles en mundiales")
+    print(f"El jugador {jugador} ha anotado {goles} goles en mundiales (del 2006 - 2018) ")
     
 ### mundial -p "jugador" (muestra el mundial donde mas goles ha metido el jugador) * ###
 def query_p(jugador,partidos):
@@ -131,7 +130,7 @@ def query_p(jugador,partidos):
                     dict_mundiales_goles[partido.fecha.year] = partido.goles[jugador]
         except:
             pass
-    print(f"El mundial donde mas goles ha metido {jugador} es {max(dict_mundiales_goles, key=dict_mundiales_goles.get)}")
+    print(f"El mundial (del 2006 - 2018) donde mas goles ha metido {jugador} es {max(dict_mundiales_goles, key=dict_mundiales_goles.get)}")
 
 ### listo mundial -j "año_mundial" (muestra el goleador del mundial de ese año)* ###
 def query_j(partidos,ano_mundial):
@@ -208,12 +207,14 @@ for row in file:
     partidos.append(partido_actual)
 file.close()
 
+query_m(partidos, "brasil")
 
 comando = input("Ingrese el comando: ")
 for i in range(10):
     revisar_comando(comando)
 
 correcto, command, option, string  = revisar_comando(comando)
+string = string.lower()
 
 try:
     print("\n")
@@ -245,13 +246,13 @@ except Exception as e:
     print("Error en el formato de entrada:", str(e))
     if option == "-c" or option == "-g" or option == "-j":
         print(f"Opcion ano_mundial ingresado incorrectamente: {string}")
-        print("Formato correcto: mundial -c “año_mundial” Donde mundial puede ser 2006,2010,2014 o 2018")
+        print("Formato correcto: mundial [option] “año_mundial” Donde mundial puede ser 2006,2010,2014 o 2018")
         print("\n")
-    elif option == "-t":
+    elif option == "-t" or option == "-m":
         print(f"Opcion Pais ingresado incorrectamente: {string}")
-        print("Formato correcto: mundial -t “pais” Donde pais puede ser cualquier pais que haya participado en los mundiales")
+        print("Formato correcto: mundial [option] “pais” Donde pais puede ser cualquier pais que haya participado en los mundiales")
         print("\n")
     else:
         print(f"Opcion jugador ingresado incorrectamente: {string}")
-        print("Formato correcto: mundial -h “jugador” Donde jugador puede ser cualquier jugador que haya participado en los mundiales")
+        print("Formato correcto: mundial [option] “jugador” Donde jugador puede ser cualquier jugador que haya participado en los mundiales")
         print("\n")
