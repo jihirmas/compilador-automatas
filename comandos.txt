@@ -1,7 +1,7 @@
-listo mundial -h “jugador” (lista los goles del jugador en mundiales)*
-listo mundial -t "pais" (muestra la cantidad de veces que el pais ha ganado la Copa del Mundo)*
-listo mundial -g "año_mundial" (muestra la cantidad total de goles anotados en ese mundial)*
-listo mundial -c "año_mundial" (muestra el campeón del mundial de ese año)*
-listo mundial -m "pais" (muestra el promedio de goles del pais en los mundiales en los que ha participado)*
-listo mundial -p "jugador" (muestra el mundial donde mas goles ha metido el jugador)*
-listo mundial -j "año_mundial" (muestra el goleador del mundial de ese año)*
+1) mundial -h “jugador” (lista los goles del jugador en mundiales)*
+2) mundial -t "pais" (muestra la cantidad de veces que el pais ha ganado la Copa del Mundo)*
+3) mundial -g "año_mundial" (muestra la cantidad total de goles anotados en ese mundial)*
+4) mundial -c "año_mundial" (muestra el campeón del mundial de ese año)*
+5) mundial -m "pais" (muestra el promedio de goles del pais en los mundiales en los que ha participado)*
+6) mundial -p "jugador" (muestra el mundial donde mas goles ha metido el jugador)*
+7) mundial -j "año_mundial" (muestra el goleador del mundial de ese año)*
