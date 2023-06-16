@@ -18,7 +18,7 @@ El lenguaje Mundial admite las siguientes opciones:
 4) `mundial -c "año_mundial"` (muestra el campeón del mundial de ese año)*
 5) `mundial -m "pais"` (muestra el promedio de goles del pais en los mundiales en los que ha participado)*
 6) `mundial -p "jugador"` (muestra el mundial donde mas goles ha metido el jugador)*
-7)` mundial -j "año_mundial"` (muestra el goleador del mundial de ese año)*
+7) `mundial -j "año_mundial"` (muestra el goleador del mundial de ese año)*
 
 ### Ejemplos de Uso
 
