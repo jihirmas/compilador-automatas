@@ -1,5 +1,6 @@
 from datetime import datetime
 import re
+from compilador import revisar_comando
 
 class Partido:
     def __init__(self, fecha, equipo_local, goles_local, equipo_visitante, goles_visitante, goles, etapa):
@@ -205,17 +206,50 @@ for row in file:
     )
     
     partidos.append(partido_actual)
-    
-    
-   
-query_c(partidos,2018)
-query_g(partidos,2018)
-query_t(partidos,"alemania")
-query_m(partidos)
-query_h("Ronaldo",partidos)
-query_p("Neymar",partidos)
-query_j(partidos,2014)
-            
-            
-
 file.close()
+
+
+comando = input("Ingrese el comando: ")
+for i in range(10):
+    revisar_comando(comando)
+
+correcto, command, option, string  = revisar_comando(comando)
+print("\n")
+try:
+    if string not in ["2006", "2010", "2014", "2018"]:
+        print(f"Opcion ano_mundial ingresado incorrectamente: {string}")
+        print("Formato correcto: mundial -c “año_mundial” Donde mundial puede ser 2006,2010,2014 o 2018")
+        print("\n")
+    if correcto:
+        if option == "-c":
+            query_c(partidos, string)
+        elif option == "-g":
+            query_g(partidos, string)
+        elif option == "-t":
+            query_t(partidos, string)
+        elif option == "-m":
+            query_m(partidos, string)
+        elif option == "-h":
+            query_h(string, partidos)
+        elif option == "-p":
+            query_p(string, partidos)
+        elif option == "-j":
+            query_j(partidos, string)
+        else:
+            print("Comando no reconocido")
+    else:
+        print("Entrada incorrecta")
+except Exception as e:
+    print("Error en el formato de entrada:", str(e))
+    if option == "-c" or option == "-g" or option == "-j":
+        print(f"Opcion ano_mundial ingresado incorrectamente: {string}")
+        print("Formato correcto: mundial -c “año_mundial” Donde mundial puede ser 2006,2010,2014 o 2018")
+        print("\n")
+    elif option == "-t":
+        print(f"Opcion Pais ingresado incorrectamente: {string}")
+        print("Formato correcto: mundial -t “equipo” Donde equipo puede ser cualquier equipo que haya participado en los mundiales")
+        print("\n")
+    else:
+        print(f"Opcion jugador ingresado incorrectamente: {string}")
+        print("Formato correcto: mundial -h “jugador” Donde jugador puede ser cualquier jugador que haya participado en los mundiales")
+        print("\n")
