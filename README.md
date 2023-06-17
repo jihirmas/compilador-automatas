@@ -1,3 +1,8 @@
+## Integrantes
+1) Jose Hirmas
+2) Jose Gutiérrez
+3) Tomás Poch
+
 # Mundial
 
 Mundial es un lenguaje de consulta diseñado para obtener información sobre la Copa del Mundo de la FIFA. Permite realizar consultas relacionadas con jugadores, equipos y datos estadísticos de los diferentes mundiales.

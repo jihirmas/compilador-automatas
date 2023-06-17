@@ -207,7 +207,6 @@ for row in file:
     partidos.append(partido_actual)
 file.close()
 
-query_m(partidos, "brasil")
 
 comando = input("Ingrese el comando: ")
 for i in range(10):
